@@ -1,7 +1,7 @@
 id: '3e53760d-b9e1-4b9d-dfd5-08dcabe8445a'
 name: 'Dimensional MSSQL'
 description: 'Demo Project for Dimensional MSSQL'
-version: 'v1.5'
+version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
   version: '1.9.2'
@@ -12,4 +12,3 @@ sourceSystems:
     activeDiscovery: 'c87dcd0f-f8a5-4c5c-9ff8-bc24608d3189'
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
 propertyValues: []
-
