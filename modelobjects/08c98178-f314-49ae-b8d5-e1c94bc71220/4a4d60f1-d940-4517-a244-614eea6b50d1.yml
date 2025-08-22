@@ -209,6 +209,34 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: 'bd622d8a-65d1-42cd-b241-e90f081ee04f'
+    name: 'BG_RowHashScd1'
+    description: 'Default term that stores the computed hash value for Scd1 attributes'
+    defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+  - id: '0734c692-527b-424b-986f-33a7f7135a10'
+    name: 'BG_RowHashScd2'
+    description: 'Default term that stores the computed hash value for Scd2 attributes'
+    defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
 dataflows:
   - id: 'dc362d51-9efa-4229-87f3-16c601b45b18'
     name: 'Dataflow1'
@@ -242,6 +270,8 @@ dataflows:
             termId: 'e9b97a5e-8d42-497a-9a64-b7b0cd44ebfa'
           - expression: '8bac337f-441e-4576-8fcd-6c9f7d7de751.89e7e7c8-bed2-451b-9c78-532a97f0bf8e'
             termId: '41bd69cc-c85b-4b4e-a164-377c3848d6f7'
+          - termId: 'bd622d8a-65d1-42cd-b241-e90f081ee04f'
+          - termId: '0734c692-527b-424b-986f-33a7f7135a10'
 dataQualityChecks:
   - id: '3afaf708-3562-491c-a65a-c27cd32398be'
     continueOnFailure: false
