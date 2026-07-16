@@ -1,6 +1,7 @@
 id: '4838d5c5-357e-44a5-9493-fcb7a613b588'
-name: 'SALESHEAD'
+name: 'SALESHEAD_'
 description: 'Generated Model Object from SALESHEAD'
+isDeactivated: false
 modelObjectTypeId: '3759b559-5773-4955-a3e7-9a77b4968cd9'
 terms:
   - id: '28b5e38e-005c-435f-97bf-64f7dcf5511b'
@@ -244,3 +245,4 @@ dataflows:
             termId: '4eacce91-d3d1-4f0a-8686-a40bc66b0622'
           - expression: '77617970-4176-4695-a9ee-047c50fe1f37.08ffcd62-06fb-4a21-89c1-d0cad13c9bf4'
             termId: 'e41cf4fe-d399-4faa-97d6-57a8b68a3478'
+propertyValues: []
