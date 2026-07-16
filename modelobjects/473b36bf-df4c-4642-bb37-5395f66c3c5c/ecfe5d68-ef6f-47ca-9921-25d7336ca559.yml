@@ -234,7 +234,11 @@ terms:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
       precision: 18
       scale: 2
+<<<<<<< HEAD
   - id: 'db1fc450-6b91-45fb-be68-d5af881dc325'
+=======
+  - id: '3f8b2c86-2721-4a7d-a75b-5e53b7f2d11c'
+>>>>>>> aco-test
     name: 'BG_IncrementalFilter'
     description: 'Default term for incremental load'
     defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
@@ -247,7 +251,11 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+<<<<<<< HEAD
   - id: 'e4cb3e22-002e-4876-a146-722e3687b06c'
+=======
+  - id: 'dfa0db95-0a9b-4e90-a025-04a977478120'
+>>>>>>> aco-test
     name: 'BG_DataflowName'
     description: 'Default term for incremental load'
     defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
@@ -261,7 +269,11 @@ terms:
     dataType:
       length: 255
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+<<<<<<< HEAD
   - id: '5a52c126-9f9e-4724-84cc-1d6c85029553'
+=======
+  - id: '9cb58782-b242-4bbe-b223-fc09bd4f6903'
+>>>>>>> aco-test
     name: 'BG_ID'
     description: 'Default term for surrogate key of increment table'
     defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
@@ -274,7 +286,11 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+<<<<<<< HEAD
   - id: '44899610-57a9-43f7-bdd4-7128c2e50027'
+=======
+  - id: '95c70e60-d834-4de0-add9-3e881fbf87c5'
+>>>>>>> aco-test
     name: 'BG_DataflowSetName'
     description: 'Default term for incremental load'
     defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
@@ -326,10 +342,17 @@ dataflows:
             termId: '3e8d4381-511c-4530-95ef-df678f4a00c1'
           - expression: '91147c21-57d5-4523-814e-a17f99534ad0.65338fab-846b-4ec8-b7e9-2e55c75b4bd9'
             termId: '874d048b-32a6-4cbb-b612-5e89de350ea5'
+<<<<<<< HEAD
           - termId: 'db1fc450-6b91-45fb-be68-d5af881dc325'
           - termId: 'e4cb3e22-002e-4876-a146-722e3687b06c'
           - termId: '5a52c126-9f9e-4724-84cc-1d6c85029553'
           - termId: '44899610-57a9-43f7-bdd4-7128c2e50027'
+=======
+          - termId: '3f8b2c86-2721-4a7d-a75b-5e53b7f2d11c'
+          - termId: 'dfa0db95-0a9b-4e90-a025-04a977478120'
+          - termId: '9cb58782-b242-4bbe-b223-fc09bd4f6903'
+          - termId: '95c70e60-d834-4de0-add9-3e881fbf87c5'
+>>>>>>> aco-test
 relationships:
   - id: '1d8da08e-87d1-48ca-8c83-b93d21081ba6'
     missingBkBehaviorId: '70e208b0-d8fa-4008-883b-4828d1dbf9b1'
@@ -338,7 +361,11 @@ relationships:
     additionalTermIds:
       - 'f26d492a-bfe7-4a51-b845-72dad7b2a88b'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '4d2c93b6-ac10-4129-a47c-8b48b5e3259c'
+=======
+      - id: 'e39b4eef-e4ff-42de-b46e-590ba1ed3fba'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -355,7 +382,11 @@ relationships:
     additionalTermIds:
       - '8aa72a31-7060-4aae-b374-f3ee3b05067c'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '4d2c93b6-ac10-4129-a47c-8b48b5e3259c'
+=======
+      - id: 'e39b4eef-e4ff-42de-b46e-590ba1ed3fba'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -372,7 +403,11 @@ relationships:
     additionalTermIds:
       - 'eff0971b-7d38-4990-9982-2269f27eadf0'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '4d2c93b6-ac10-4129-a47c-8b48b5e3259c'
+=======
+      - id: 'e39b4eef-e4ff-42de-b46e-590ba1ed3fba'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'

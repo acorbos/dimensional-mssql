@@ -220,7 +220,11 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
+<<<<<<< HEAD
   - id: '0cc12ae9-d992-4685-a07a-07f839b0d6f1'
+=======
+  - id: '88d83c50-58d1-4909-8771-995c09ebdb22'
+>>>>>>> aco-test
     name: 'BG_RowHashScd1'
     description: 'Default term that stores the computed hash value for Scd1 attributes'
     defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
@@ -234,7 +238,11 @@ terms:
     dataType:
       length: 20
       platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+<<<<<<< HEAD
   - id: 'd88b938e-e34e-4647-ace4-bd6dd749efda'
+=======
+  - id: '3f3d62d6-c71d-4573-be75-0728632a0eaf'
+>>>>>>> aco-test
     name: 'BG_RowHashScd2'
     description: 'Default term that stores the computed hash value for Scd2 attributes'
     defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
@@ -283,16 +291,27 @@ dataflows:
             termId: '9c842690-238f-4d55-a7ff-2b5a817341e3'
           - expression: '87e61c2a-612b-4488-a43b-94f186ca9a54.4b37b4d2-b5f9-4cdb-9860-0a649ee133fc'
             termId: '90fccbe2-0400-4b62-9148-407ff54f7862'
+<<<<<<< HEAD
           - termId: '0cc12ae9-d992-4685-a07a-07f839b0d6f1'
           - termId: 'd88b938e-e34e-4647-ace4-bd6dd749efda'
 dataQualityChecks:
   - id: 'c20376a5-e03c-4182-935a-dbfecb0b4b37'
+=======
+          - termId: '88d83c50-58d1-4909-8771-995c09ebdb22'
+          - termId: '3f3d62d6-c71d-4573-be75-0728632a0eaf'
+dataQualityChecks:
+  - id: '60a98d8f-d56b-4fca-a10e-9b033f758aa7'
+>>>>>>> aco-test
     continueOnFailure: false
     dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
     executionBehaviour: 'Before'
     isActive: true
     logging: true
+<<<<<<< HEAD
   - id: '9e0a9630-4435-4b4f-bce3-73c73e41fa01'
+=======
+  - id: '8d6133eb-1e73-4a73-a49a-bb6a3432851f'
+>>>>>>> aco-test
     continueOnFailure: false
     dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
     executionBehaviour: 'Before'
@@ -307,7 +326,11 @@ relationships:
     additionalTermIds:
       - '55923a3b-403f-4d4b-9783-163191cdbd2a'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '0b1dd721-3eb7-40c1-b020-43f1d69cd1c8'
+=======
+      - id: '916012eb-b77d-4d9f-9184-968c0b62aa3a'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'

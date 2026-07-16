@@ -272,7 +272,11 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+<<<<<<< HEAD
   - id: '338db7f1-fdec-4f13-97c5-3f4f1984da16'
+=======
+  - id: '1809f699-e3f4-48be-9b9b-3b026ff5a95d'
+>>>>>>> aco-test
     name: 'BG_IncrementalFilter'
     description: 'Default term for incremental load'
     defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
@@ -285,7 +289,11 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+<<<<<<< HEAD
   - id: 'ce1dfe30-8deb-400c-a2d7-bb3af8723fce'
+=======
+  - id: '5dd27a8e-260a-4250-b456-69d3771bcd80'
+>>>>>>> aco-test
     name: 'BG_DataflowName'
     description: 'Default term for incremental load'
     defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
@@ -299,7 +307,11 @@ terms:
     dataType:
       length: 255
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+<<<<<<< HEAD
   - id: '3de5193c-589c-4581-b190-138918169abb'
+=======
+  - id: '887830f1-9392-4ab3-ae75-9c0232715f0c'
+>>>>>>> aco-test
     name: 'BG_ID'
     description: 'Default term for surrogate key of increment table'
     defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
@@ -312,7 +324,11 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+<<<<<<< HEAD
   - id: '70df697d-3f2d-4b68-8b33-9af052f0757a'
+=======
+  - id: 'c8d12e0d-9f91-4edf-884d-daab1e552e66'
+>>>>>>> aco-test
     name: 'BG_DataflowSetName'
     description: 'Default term for incremental load'
     defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
@@ -369,10 +385,17 @@ dataflows:
             termId: '49c47965-6735-452e-8789-6834584db2ee'
           - expression: '7675f6be-458d-41be-a265-a367a4b597af.59cf6aa4-963a-4540-83ba-446bf984be37'
             termId: '71ecf995-8fcb-47d4-aac7-66243bf0fb37'
+<<<<<<< HEAD
           - termId: '338db7f1-fdec-4f13-97c5-3f4f1984da16'
           - termId: 'ce1dfe30-8deb-400c-a2d7-bb3af8723fce'
           - termId: '3de5193c-589c-4581-b190-138918169abb'
           - termId: '70df697d-3f2d-4b68-8b33-9af052f0757a'
+=======
+          - termId: '1809f699-e3f4-48be-9b9b-3b026ff5a95d'
+          - termId: '5dd27a8e-260a-4250-b456-69d3771bcd80'
+          - termId: '887830f1-9392-4ab3-ae75-9c0232715f0c'
+          - termId: 'c8d12e0d-9f91-4edf-884d-daab1e552e66'
+>>>>>>> aco-test
 relationships:
   - id: 'e8bad354-9b60-4f77-93ce-56c80b6a24ac'
     missingBkBehaviorId: '70e208b0-d8fa-4008-883b-4828d1dbf9b1'
@@ -381,7 +404,11 @@ relationships:
     additionalTermIds:
       - '52a924f6-0c79-4915-8cc2-c05f0f6601ef'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '86ef8c8b-46ee-44ba-b0f0-288247326650'
+=======
+      - id: 'bdf1cfe2-a0ef-4476-be04-c20c79b56e1a'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -398,7 +425,11 @@ relationships:
     additionalTermIds:
       - '48eb2403-fe06-4bce-a2fe-aa380754877a'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '86ef8c8b-46ee-44ba-b0f0-288247326650'
+=======
+      - id: 'bdf1cfe2-a0ef-4476-be04-c20c79b56e1a'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -415,7 +446,11 @@ relationships:
     additionalTermIds:
       - '6c8f7626-1772-4db8-aebc-849f706d9ae8'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '86ef8c8b-46ee-44ba-b0f0-288247326650'
+=======
+      - id: 'bdf1cfe2-a0ef-4476-be04-c20c79b56e1a'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -432,7 +467,11 @@ relationships:
     additionalTermIds:
       - 'af7802a7-f952-4987-a358-3bba39029640'
     dataQualityChecks:
+<<<<<<< HEAD
       - id: '86ef8c8b-46ee-44ba-b0f0-288247326650'
+=======
+      - id: 'bdf1cfe2-a0ef-4476-be04-c20c79b56e1a'
+>>>>>>> aco-test
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'

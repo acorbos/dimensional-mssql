@@ -254,7 +254,11 @@ terms:
     dataType:
       length: 2
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+<<<<<<< HEAD
   - id: 'e79ff090-fa0f-4e3f-bbee-a76cc72d1e07'
+=======
+  - id: '0212a2ec-607c-4052-854f-e44d197236a0'
+>>>>>>> aco-test
     name: 'BG_RowHashScd1'
     description: 'Default term that stores the computed hash value for Scd1 attributes'
     defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
@@ -268,7 +272,11 @@ terms:
     dataType:
       length: 20
       platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+<<<<<<< HEAD
   - id: '36a0b023-78d3-483c-925b-66fa5ecfdfc6'
+=======
+  - id: 'b8b0e003-d79b-400e-a413-eaedf28ab960'
+>>>>>>> aco-test
     name: 'BG_RowHashScd2'
     description: 'Default term that stores the computed hash value for Scd2 attributes'
     defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
@@ -323,16 +331,27 @@ dataflows:
             termId: '15916606-1c8e-4758-a0af-2b32052be1ff'
           - expression: '89a6384e-9f5f-4b8e-b2f1-1677720ccad1.6f000a03-f245-4342-b465-2bdc4db01c6a'
             termId: '875d615a-0738-4d48-aabf-8d23fa79eb50'
+<<<<<<< HEAD
           - termId: 'e79ff090-fa0f-4e3f-bbee-a76cc72d1e07'
           - termId: '36a0b023-78d3-483c-925b-66fa5ecfdfc6'
 dataQualityChecks:
   - id: '74bed56b-5e12-4279-8cfc-27f27df403e8'
+=======
+          - termId: '0212a2ec-607c-4052-854f-e44d197236a0'
+          - termId: 'b8b0e003-d79b-400e-a413-eaedf28ab960'
+dataQualityChecks:
+  - id: 'e957df3e-f7f0-4811-ad82-185223840363'
+>>>>>>> aco-test
     continueOnFailure: false
     dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
     executionBehaviour: 'Before'
     isActive: true
     logging: true
+<<<<<<< HEAD
   - id: '9d0d92f2-fc99-4342-b5ce-691df530b027'
+=======
+  - id: '0b1f9700-9bcc-4af3-b16b-9b7550d11d24'
+>>>>>>> aco-test
     continueOnFailure: false
     dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
     executionBehaviour: 'Before'
